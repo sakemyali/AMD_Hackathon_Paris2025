@@ -1,0 +1,6 @@
+#!/bin/bash
+
+lerobot-calibrate \
+    --teleop.type=so101_leader \
+    --teleop.port=/dev/ttyACM0 \
+    --teleop.id=leader_arm
