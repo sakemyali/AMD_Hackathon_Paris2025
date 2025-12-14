@@ -298,7 +298,11 @@ The robot reliably completes:
 across repeated trials as we can see in the following videos :
 
 https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
+
+
 https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
+
+
 ---
 
 #### 2. Object Awareness & Filtering
