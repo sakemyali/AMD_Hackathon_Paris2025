@@ -381,7 +381,7 @@ https://youtu.be/HEasbXmw7Y0?si=KrEOIr6H_LYbrH5S
 
 **Models:**
 
-* 🤖ACT_v1 [https://huggingface.co/KACM/act_pi0-croissant-so101](https://huggingface.co/KACM/act_pi0-croissant-so101)
+* 🤖ACT_v1 [https://huggingface.co/sakemyali/actm2](https://huggingface.co/sakemyali/actm2)
 
 * 🤖ACT_v2 [https://huggingface.co/sakemyali/actm2_v2](https://huggingface.co/sakemyali/actm2_v2)
 
@@ -421,14 +421,6 @@ AMD_Hackathon_Paris2025/
 │       ├── record_m2.sh
 │       ├── resume_record_m2.sh
 │       └── teleop.sh
-├── AMD_team42_tokyo/
-│   ├── README.md
-│   ├── mission1/
-│   ├── mission2/
-│   │   └── vdemo/
-│   └── presentation/
-├── DigitalLaws/
-└── README.md
 ```
 
 ---
