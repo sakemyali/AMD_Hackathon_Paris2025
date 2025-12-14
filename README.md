@@ -122,9 +122,9 @@ A simple pick-and-place task used to:
 **Mission 1 Artifacts:**
 
 * 📦 Dataset:
-  [https://huggingface.co/datasets/KACM/record-croissant-prelim](https://huggingface.co/datasets/KACM/record-croissant-prelim)
+  [https://huggingface.co/datasets/sakemyali/mission1-2](https://huggingface.co/datasets/sakemyali/mission1-2)
 * 🤖 Model (ACT):
-  [https://huggingface.co/KACM/act_so101_prelim](https://huggingface.co/KACM/act_so101_prelim)
+  [https://huggingface.co/sakemyali/try2](https://huggingface.co/sakemyali/try2)
 
 ---
 
@@ -358,7 +358,7 @@ Performance remains stable under:
 
 **Mission 2 Dataset:**
 
-* 📦 [https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1](https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1)
+* 📦 [https://huggingface.co/datasets/sakemyali/m2set](https://huggingface.co/datasets/sakemyali/m2set)
 
 ---
 
@@ -373,24 +373,54 @@ Performance remains stable under:
 
 **Models:**
 
-* 🤖 [https://huggingface.co/KACM/act_pi0-croissant-so101](https://huggingface.co/KACM/act_pi0-croissant-so101)
+* 🤖ACT_v1 [https://huggingface.co/KACM/act_pi0-croissant-so101](https://huggingface.co/KACM/act_pi0-croissant-so101)
+
+* 🤖ACT_v2 [https://huggingface.co/sakemyali/actm2_v2](https://huggingface.co/sakemyali/actm2_v2)
+
+* 🤖smolVLA [https://huggingface.co/sakemyali/svlam2](https://huggingface.co/sakemyali/svlam2)
+
+* 🤖pi0 [https://huggingface.co/sakemyali/p0m2](https://huggingface.co/sakemyali/p0m2)
 
 ---
 
 ## Repository Structure
 
 ```bash
-coffee-croissant-robot/
+AMD_Hackathon_Paris2025/
+├── extras/
 ├── mission1/
 │   └── code/
+│       ├── calibrate_fol.sh
+│       ├── calibrate_lead.sh
+│       ├── cam_teleop.sh
+│       ├── inference_m1.sh
+│       ├── permission_arm.sh
+│       ├── permission_cam.sh
+│       ├── record_m1.sh
+│       └── teleop.sh
 ├── mission2/
 │   └── code/
-│       ├── calib_follower.sh
-│       ├── calib_leader.sh
+│       ├── calibrate_fol.sh
+│       ├── calibrate_lead.sh
+│       ├── cam_teleop.sh
+│       ├── inference-actm2v1.sh
+│       ├── inference-actm2v2.sh
+│       ├── inference-pi0m2.sh
+│       ├── inference-smolvlam2.sh
 │       ├── fix_arms_access_permission.sh
-│       ├── record_teleop_data_640x480_30fps_3cams.sh
-│       ├── inference_teleop_640x480_30fps_3cams.sh
-├── README.md
+│       ├── permission_arm.sh
+│       ├── permission_cam.sh
+│       ├── record_m2.sh
+│       ├── resume_record_m2.sh
+│       └── teleop.sh
+├── AMD_team42_tokyo/
+│   ├── README.md
+│   ├── mission1/
+│   ├── mission2/
+│   │   └── vdemo/
+│   └── presentation/
+├── DigitalLaws/
+└── README.md
 ```
 
 ---
