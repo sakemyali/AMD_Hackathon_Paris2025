@@ -137,15 +137,37 @@ A simple pick-and-place task used to:
 **Real-world motivation:**
 Household and assistive robots must safely manipulate everyday food items while understanding *what* to pick and *what to ignore*. Tasks such as serving food, handing objects to humans, or interacting with fragile items require a combination of **precise manipulation**, **object awareness**, and **robust execution in unstructured environments**.
 
-Our robot autonomously performs the following behaviors:
+Our robot autonomously performs **three distinct tasks**, depending on the object detected in the scene.
 
-* Detect and pick a **croissant**
-* Dip it carefully into a **cup of coffee**
-* Release the croissant safely
-* Detect and pick a **baguette**
-* Hand it over to a human
-* Ignore unrelated or forbidden objects (e.g., medicine)
-* Remain idle when no target object is present
+---
+
+#### 🥐 Task 1: Croissant Interaction
+
+When a **croissant** is detected, the robot:
+
+- Detects and picks the **croissant**
+- Dips it carefully into a **cup of coffee**
+- Releases the croissant safely after dipping
+
+---
+
+#### 🥖 Task 2: Baguette Handover
+
+When a **baguette** is detected, the robot:
+
+- Detects and picks the **baguette**
+- Hands it over to a human in a safe and controlled manner
+
+---
+
+#### 🚫 Task 3: Non-Target / Forbidden Object Handling
+
+When an **unrelated or forbidden object** (e.g., medicine) is detected, or when no valid target object is present, the robot:
+
+- Ignores the object
+- Does **not** attempt to grasp or interact with it
+- Remains idle until a valid target object appears
+
 
 With prior experience building classical manipulation pipelines, this project represents a transition toward **learning-based robotic control**, relying on data-driven policies trained from real demonstrations.
 
