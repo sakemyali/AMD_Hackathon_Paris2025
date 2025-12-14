@@ -283,7 +283,7 @@ The dataset follows the **LeRobot standard format** and is reusable for future t
 * Fully autonomous execution after start signal
 * No human intervention during task execution
 * Evaluated across multiple trials and lighting conditions
----------------------add training plots ----------
+
 ---
 
 ### 5. Results
@@ -296,8 +296,8 @@ The robot reliably completes:
 * Baguette pick and handover
 
 across repeated trials as we can see in the following videos :
-https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
 
+https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
 https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
 ---
 
@@ -308,7 +308,6 @@ https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
 * Remains idle when no target object is detected
 
 https://youtu.be/CIm8Ewrc9b8?si=L_SJo0eBMjYwMhpv
-
 https://youtu.be/CiShu3YnrM4?si=KXbAPqK_0l7VKrA6
 ---
 
@@ -511,7 +510,7 @@ cd mission2/code
 * ✅ Robust object discrimination
 * ✅ Stable performance under different lighting conditions
 
-------------------Add videos + training plots -----------------
+
 
 ---
 
