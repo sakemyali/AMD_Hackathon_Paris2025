@@ -122,9 +122,9 @@ A simple pick-and-place task used to:
 **Mission 1 Artifacts:**
 
 * 📦 Dataset:
-  [https://huggingface.co/datasets/KACM/record-croissant-prelim](https://huggingface.co/datasets/KACM/record-croissant-prelim)
+  [https://huggingface.co/datasets/sakemyali/mission1-2](https://huggingface.co/datasets/sakemyali/mission1-2)
 * 🤖 Model (ACT):
-  [https://huggingface.co/KACM/act_so101_prelim](https://huggingface.co/KACM/act_so101_prelim)
+  [https://huggingface.co/sakemyali/try2](https://huggingface.co/sakemyali/try2)
 
 ---
 
@@ -328,7 +328,7 @@ Performance remains stable under:
 
 **Mission 2 Dataset:**
 
-* 📦 [https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1](https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1)
+* 📦 [https://huggingface.co/datasets/sakemyali/m2set](https://huggingface.co/datasets/sakemyali/m2set)
 
 ---
 
@@ -343,7 +343,13 @@ Performance remains stable under:
 
 **Models:**
 
-* 🤖 [https://huggingface.co/KACM/act_pi0-croissant-so101](https://huggingface.co/KACM/act_pi0-croissant-so101)
+* 🤖ACT_v1 [https://huggingface.co/KACM/act_pi0-croissant-so101](https://huggingface.co/KACM/act_pi0-croissant-so101)
+
+* 🤖ACT_v2 [https://huggingface.co/sakemyali/actm2_v2](https://huggingface.co/sakemyali/actm2_v2)
+
+* 🤖smolVLA [https://huggingface.co/sakemyali/svlam2](https://huggingface.co/sakemyali/svlam2)
+
+* 🤖pi0 [https://huggingface.co/sakemyali/p0m2](https://huggingface.co/sakemyali/p0m2)
 
 ---
 
