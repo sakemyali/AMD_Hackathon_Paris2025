@@ -118,7 +118,7 @@ A simple pick-and-place task used to:
 * Validate the LeRobot pipeline
 * Test data recording and inference
 * Calibrate the robot and cameras
----------------- add video ----------------
+
 **Mission 1 Artifacts:**
 
 * 📦 Dataset:
