@@ -401,37 +401,38 @@ https://youtu.be/HEasbXmw7Y0?si=KrEOIr6H_LYbrH5S
 ---
 
 ## Repository Structure
-
 ```bash
 AMD_Hackathon_Paris2025/
 ├── extras/
+│   └── demo.gif
 ├── mission1/
-│   └── code/
-│       ├── calibrate_fol.sh
-│       ├── calibrate_lead.sh
-│       ├── cam_teleop.sh
-│       ├── inference_m1.sh
-│       ├── permission_arm.sh
-│       ├── permission_cam.sh
-│       ├── record_m1.sh
-│       └── teleop.sh
+│   ├── code/
+│   │   ├── calibrate_fol.sh
+│   │   ├── calibrate_lead.sh
+│   │   ├── cam_teleop.sh
+│   │   ├── inference_m1.sh
+│   │   ├── permission_arm.sh
+│   │   ├── permission_cam.sh
+│   │   ├── record_m1.sh
+│   │   └── teleop.sh
+│   └── wandb/      
 ├── mission2/
-│   └── code/
-│       ├── calibrate_fol.sh
-│       ├── calibrate_lead.sh
-│       ├── cam_teleop.sh
-│       ├── inference-actm2v1.sh
-│       ├── inference-actm2v2.sh
-│       ├── inference-pi0m2.sh
-│       ├── inference-smolvlam2.sh
-│       ├── fix_arms_access_permission.sh
-│       ├── permission_arm.sh
-│       ├── permission_cam.sh
-│       ├── record_m2.sh
-│       ├── resume_record_m2.sh
-│       └── teleop.sh
+│   ├── code/
+│   │   ├── calibrate_fol.sh
+│   │   ├── calibrate_lead.sh
+│   │   ├── cam_teleop.sh
+│   │   ├── inference-actm2v1.sh
+│   │   ├── inference-actm2v2.sh
+│   │   ├── inference-pi0m2.sh
+│   │   ├── inference-smolvlam2.sh
+│   │   ├── fix_arms_access_permission.sh
+│   │   ├── permission_arm.sh
+│   │   ├── permission_cam.sh
+│   │   ├── record_m2.sh
+│   │   ├── resume_record_m2.sh
+│   │   └── teleop.sh
+│   └── wandb/      
 ```
-
 ---
 
 ## How to Reproduce
