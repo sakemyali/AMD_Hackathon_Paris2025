@@ -327,6 +327,8 @@ Performance remains stable under:
 * Compatible with LeRobot standard format
 
 ![Coffee & Croissant Robot](extras/Adobe%20Express%20-%20AA85F1EA-90CC-4826-9FE3-D07864121704.gif)
+
+
 **Mission 2 Dataset:**
 
 * 📦 [https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1](https://huggingface.co/datasets/KACM/croissant-dipping-so101-v1)
