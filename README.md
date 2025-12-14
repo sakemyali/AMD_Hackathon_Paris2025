@@ -297,8 +297,8 @@ The robot reliably completes:
 
 across repeated trials as we can see in the following videos :
 https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
-https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
 
+https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
 ---
 
 #### 2. Object Awareness & Filtering
@@ -308,6 +308,7 @@ https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
 * Remains idle when no target object is detected
 
 https://youtu.be/CIm8Ewrc9b8?si=L_SJo0eBMjYwMhpv
+
 https://youtu.be/CiShu3YnrM4?si=KXbAPqK_0l7VKrA6
 ---
 
@@ -319,7 +320,6 @@ Performance remains stable under:
 * Dim indoor lighting
 * Partial shadows
 
-https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
 
 ---
 
