@@ -1,0 +1,150 @@
+INFO 2025-12-14 09:59:32 db_utils.py:102 [1m[34mLogs will be synced with wandb.[0m
+INFO 2025-12-14 09:59:32 db_utils.py:103 Track this run --> [1m[33mhttps://wandb.ai/sakemyali_42/lerobot/runs/7m2yquto[0m
+INFO 2025-12-14 09:59:32 ot_train.py:183 Creating dataset
+stats.json: 100%|██████████████████████████| 16.0k/16.0k [00:00<00:00, 75.7MB/s]
+info.json: 100%|███████████████████████████| 3.86k/3.86k [00:00<00:00, 40.3MB/s]
+meta/episodes/chunk-000/file-002.parquet: 100%|█| 121k/121k [00:00<00:00, 426kB/
+meta/episodes/chunk-000/file-000.parquet: 100%|█| 122k/122k [00:00<00:00, 324kB/
+meta/tasks.parquet: 100%|██████████████████| 2.18k/2.18k [00:00<00:00, 4.38kB/s]
+meta/episodes/chunk-000/file-001.parquet: 100%|█| 122k/122k [00:00<00:00, 228kB/
+Fetching 6 files: 100%|███████████████████████████| 6/6 [00:00<00:00,  8.09it/s]
+.gitattributes: 100%|██████████████████████| 2.46k/2.46k [00:00<00:00, 28.7MB/s]
+data/chunk-000/file-001.parquet: 100%|███████| 630k/630k [00:00<00:00, 4.21MB/s]
+data/chunk-000/file-000.parquet: 100%|███████| 718k/718k [00:00<00:00, 2.86MB/s]
+data/chunk-000/file-002.parquet: 100%|███████| 281k/281k [00:00<00:00, 1.09MB/s]
+videos/observation.images.arm/chunk-000/(…): 100%|█| 172M/172M [00:01<00:00, 112
+videos/observation.images.arm/chunk-000/(…): 100%|█| 60.6M/60.6M [00:01<00:00, 3
+videos/observation.images.side/chunk-000(…): 100%|█| 93.4M/93.4M [00:01<00:00, 5
+videos/observation.images.top/chunk-000/(…): 100%|█| 206M/206M [00:01<00:00, 132
+videos/observation.images.side/chunk-000(…): 100%|█| 271M/271M [00:01<00:00, 147
+videos/observation.images.top/chunk-000/(…): 100%|█| 184M/184M [00:01<00:00, 113
+videos/observation.images.side/chunk-000(…): 100%|█| 289M/289M [00:02<00:00, 136
+videos/observation.images.arm/chunk-000/(…): 100%|█| 155M/155M [00:02<00:00, 69.
+videos/observation.images.top/chunk-000/(…): 100%|█| 69.6M/69.6M [00:01<00:00, 4
+Fetching 19 files: 100%|████████████████████████| 19/19 [00:03<00:00,  5.50it/s]
+INFO 2025-12-14 09:59:36 ot_train.py:202 Creating policyM/289M [00:01<00:01, 102
+INFO 2025-12-14 09:59:38 ot_train.py:247 Creating optimizer and scheduler00, 79.
+INFO 2025-12-14 09:59:39 ot_train.py:259 [1m[33mOutput dir:[0m outputs/train/actm2_v2
+INFO 2025-12-14 09:59:39 ot_train.py:262 cfg.steps=50000 (50K)6M [00:01<00:00, 5
+Loading weights from local directory
+INFO 2025-12-14 09:59:39 ot_train.py:263 dataset.num_frames=34034 (34K)
+INFO 2025-12-14 09:59:39 ot_train.py:264 dataset.num_episodes=60
+INFO 2025-12-14 09:59:39 ot_train.py:267 Effective batch size: 64 x 1 = 64
+INFO 2025-12-14 09:59:39 ot_train.py:268 num_learnable_params=51597190 (52M)
+INFO 2025-12-14 09:59:39 ot_train.py:269 num_total_params=51597190 (52M)
+INFO 2025-12-14 09:59:39 ot_train.py:324 Start offline training on a fixed dataset
+INFO 2025-12-14 10:01:50 ot_train.py:351 step:30K smpl:2M ep:3K epch:56.79 loss:0.079 grdn:5.294 lr:1.0e-05 updt_s:0.625 data_s:0.028
+INFO 2025-12-14 10:03:08 ot_train.py:351 step:30K smpl:2M ep:3K epch:57.17 loss:0.079 grdn:5.151 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:05:03 ot_train.py:351 step:31K smpl:2M ep:3K epch:57.54 loss:0.079 grdn:5.479 lr:1.0e-05 updt_s:0.538 data_s:0.036
+INFO 2025-12-14 10:06:22 ot_train.py:351 step:31K smpl:2M ep:3K epch:57.92 loss:0.079 grdn:5.729 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:07:41 ot_train.py:351 step:31K smpl:2M ep:3K epch:58.29 loss:0.079 grdn:4.996 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:09:07 ot_train.py:351 step:31K smpl:2M ep:4K epch:58.67 loss:0.078 grdn:4.914 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 10:10:26 ot_train.py:351 step:31K smpl:2M ep:4K epch:59.05 loss:0.079 grdn:5.224 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:11:52 ot_train.py:351 step:32K smpl:2M ep:4K epch:59.42 loss:0.078 grdn:5.023 lr:1.0e-05 updt_s:0.381 data_s:0.047
+INFO 2025-12-14 10:13:10 ot_train.py:351 step:32K smpl:2M ep:4K epch:59.80 loss:0.078 grdn:5.153 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:14:29 ot_train.py:351 step:32K smpl:2M ep:4K epch:60.18 loss:0.078 grdn:5.201 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:15:55 ot_train.py:351 step:32K smpl:2M ep:4K epch:60.55 loss:0.077 grdn:5.452 lr:1.0e-05 updt_s:0.379 data_s:0.050
+INFO 2025-12-14 10:17:14 ot_train.py:351 step:32K smpl:2M ep:4K epch:60.93 loss:0.075 grdn:4.628 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:18:33 ot_train.py:351 step:33K smpl:2M ep:4K epch:61.30 loss:0.077 grdn:5.459 lr:1.0e-05 updt_s:0.380 data_s:0.016
+INFO 2025-12-14 10:19:59 ot_train.py:351 step:33K smpl:2M ep:4K epch:61.68 loss:0.077 grdn:5.646 lr:1.0e-05 updt_s:0.381 data_s:0.046
+INFO 2025-12-14 10:21:18 ot_train.py:351 step:33K smpl:2M ep:4K epch:62.06 loss:0.076 grdn:4.978 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:22:45 ot_train.py:351 step:33K smpl:2M ep:4K epch:62.43 loss:0.076 grdn:5.006 lr:1.0e-05 updt_s:0.381 data_s:0.058
+INFO 2025-12-14 10:24:04 ot_train.py:351 step:33K smpl:2M ep:4K epch:62.81 loss:0.075 grdn:5.051 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:25:23 ot_train.py:351 step:34K smpl:2M ep:4K epch:63.18 loss:0.076 grdn:5.443 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:26:49 ot_train.py:351 step:34K smpl:2M ep:4K epch:63.56 loss:0.076 grdn:5.241 lr:1.0e-05 updt_s:0.381 data_s:0.051
+INFO 2025-12-14 10:28:08 ot_train.py:351 step:34K smpl:2M ep:4K epch:63.94 loss:0.075 grdn:4.706 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:29:27 ot_train.py:351 step:34K smpl:2M ep:4K epch:64.31 loss:0.075 grdn:4.965 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:30:54 ot_train.py:351 step:34K smpl:2M ep:4K epch:64.69 loss:0.074 grdn:4.738 lr:1.0e-05 updt_s:0.380 data_s:0.051
+INFO 2025-12-14 10:32:13 ot_train.py:351 step:35K smpl:2M ep:4K epch:65.06 loss:0.074 grdn:4.992 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:33:39 ot_train.py:351 step:35K smpl:2M ep:4K epch:65.44 loss:0.074 grdn:4.708 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 10:34:58 ot_train.py:351 step:35K smpl:2M ep:4K epch:65.82 loss:0.074 grdn:5.152 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:34:58 ot_train.py:361 Checkpoint policy after step 35000
+INFO 2025-12-14 10:36:18 ot_train.py:351 step:35K smpl:2M ep:4K epch:66.19 loss:0.073 grdn:5.024 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:37:44 ot_train.py:351 step:35K smpl:2M ep:4K epch:66.57 loss:0.074 grdn:4.965 lr:1.0e-05 updt_s:0.381 data_s:0.048
+INFO 2025-12-14 10:39:06 ot_train.py:351 step:36K smpl:2M ep:4K epch:66.94 loss:0.073 grdn:5.149 lr:1.0e-05 updt_s:0.380 data_s:0.033
+INFO 2025-12-14 10:40:29 ot_train.py:351 step:36K smpl:2M ep:4K epch:67.32 loss:0.074 grdn:5.014 lr:1.0e-05 updt_s:0.380 data_s:0.033
+INFO 2025-12-14 10:41:56 ot_train.py:351 step:36K smpl:2M ep:4K epch:67.70 loss:0.072 grdn:4.732 lr:1.0e-05 updt_s:0.380 data_s:0.053
+INFO 2025-12-14 10:43:15 ot_train.py:351 step:36K smpl:2M ep:4K epch:68.07 loss:0.073 grdn:4.810 lr:1.0e-05 updt_s:0.382 data_s:0.016
+INFO 2025-12-14 10:44:41 ot_train.py:351 step:36K smpl:2M ep:4K epch:68.45 loss:0.071 grdn:4.651 lr:1.0e-05 updt_s:0.380 data_s:0.051
+INFO 2025-12-14 10:46:00 ot_train.py:351 step:37K smpl:2M ep:4K epch:68.83 loss:0.072 grdn:4.901 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:47:19 ot_train.py:351 step:37K smpl:2M ep:4K epch:69.20 loss:0.072 grdn:4.923 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:48:45 ot_train.py:351 step:37K smpl:2M ep:4K epch:69.58 loss:0.072 grdn:4.981 lr:1.0e-05 updt_s:0.381 data_s:0.045
+INFO 2025-12-14 10:50:05 ot_train.py:351 step:37K smpl:2M ep:4K epch:69.95 loss:0.071 grdn:4.960 lr:1.0e-05 updt_s:0.381 data_s:0.018
+INFO 2025-12-14 10:51:26 ot_train.py:351 step:37K smpl:2M ep:4K epch:70.33 loss:0.072 grdn:5.087 lr:1.0e-05 updt_s:0.381 data_s:0.028
+INFO 2025-12-14 10:52:52 ot_train.py:351 step:38K smpl:2M ep:4K epch:70.71 loss:0.070 grdn:4.653 lr:1.0e-05 updt_s:0.381 data_s:0.047
+INFO 2025-12-14 10:54:13 ot_train.py:351 step:38K smpl:2M ep:4K epch:71.08 loss:0.072 grdn:4.970 lr:1.0e-05 updt_s:0.381 data_s:0.021
+INFO 2025-12-14 10:55:38 ot_train.py:351 step:38K smpl:2M ep:4K epch:71.46 loss:0.071 grdn:4.792 lr:1.0e-05 updt_s:0.380 data_s:0.046
+INFO 2025-12-14 10:56:57 ot_train.py:351 step:38K smpl:2M ep:4K epch:71.83 loss:0.070 grdn:4.693 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 10:58:16 ot_train.py:351 step:38K smpl:2M ep:4K epch:72.21 loss:0.071 grdn:5.252 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 10:59:41 ot_train.py:351 step:39K smpl:2M ep:4K epch:72.59 loss:0.070 grdn:4.441 lr:1.0e-05 updt_s:0.380 data_s:0.043
+INFO 2025-12-14 11:01:04 ot_train.py:351 step:39K smpl:2M ep:4K epch:72.96 loss:0.070 grdn:4.450 lr:1.0e-05 updt_s:0.382 data_s:0.033
+INFO 2025-12-14 11:02:28 ot_train.py:351 step:39K smpl:2M ep:4K epch:73.34 loss:0.070 grdn:4.761 lr:1.0e-05 updt_s:0.380 data_s:0.042
+INFO 2025-12-14 11:03:55 ot_train.py:351 step:39K smpl:3M ep:4K epch:73.71 loss:0.070 grdn:4.901 lr:1.0e-05 updt_s:0.380 data_s:0.052
+INFO 2025-12-14 11:05:15 ot_train.py:351 step:39K smpl:3M ep:4K epch:74.09 loss:0.070 grdn:4.947 lr:1.0e-05 updt_s:0.381 data_s:0.020
+INFO 2025-12-14 11:06:40 ot_train.py:351 step:40K smpl:3M ep:4K epch:74.47 loss:0.069 grdn:5.018 lr:1.0e-05 updt_s:0.380 data_s:0.044
+INFO 2025-12-14 11:07:59 ot_train.py:351 step:40K smpl:3M ep:4K epch:74.84 loss:0.069 grdn:4.386 lr:1.0e-05 updt_s:0.382 data_s:0.014
+INFO 2025-12-14 11:09:18 ot_train.py:351 step:40K smpl:3M ep:5K epch:75.22 loss:0.069 grdn:4.678 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:09:18 ot_train.py:361 Checkpoint policy after step 40000
+INFO 2025-12-14 11:10:44 ot_train.py:351 step:40K smpl:3M ep:5K epch:75.59 loss:0.067 grdn:4.556 lr:1.0e-05 updt_s:0.382 data_s:0.041
+INFO 2025-12-14 11:12:05 ot_train.py:351 step:40K smpl:3M ep:5K epch:75.97 loss:0.068 grdn:4.734 lr:1.0e-05 updt_s:0.381 data_s:0.021
+INFO 2025-12-14 11:13:27 ot_train.py:351 step:41K smpl:3M ep:5K epch:76.35 loss:0.069 grdn:4.735 lr:1.0e-05 updt_s:0.382 data_s:0.029
+INFO 2025-12-14 11:14:53 ot_train.py:351 step:41K smpl:3M ep:5K epch:76.72 loss:0.067 grdn:4.539 lr:1.0e-05 updt_s:0.381 data_s:0.046
+INFO 2025-12-14 11:16:14 ot_train.py:351 step:41K smpl:3M ep:5K epch:77.10 loss:0.068 grdn:4.798 lr:1.0e-05 updt_s:0.381 data_s:0.025
+INFO 2025-12-14 11:17:43 ot_train.py:351 step:41K smpl:3M ep:5K epch:77.48 loss:0.068 grdn:4.827 lr:1.0e-05 updt_s:0.380 data_s:0.064
+INFO 2025-12-14 11:19:02 ot_train.py:351 step:41K smpl:3M ep:5K epch:77.85 loss:0.067 grdn:4.573 lr:1.0e-05 updt_s:0.380 data_s:0.017
+INFO 2025-12-14 11:20:23 ot_train.py:351 step:42K smpl:3M ep:5K epch:78.23 loss:0.066 grdn:4.436 lr:1.0e-05 updt_s:0.380 data_s:0.022
+INFO 2025-12-14 11:21:49 ot_train.py:351 step:42K smpl:3M ep:5K epch:78.60 loss:0.068 grdn:4.905 lr:1.0e-05 updt_s:0.381 data_s:0.050
+INFO 2025-12-14 11:23:08 ot_train.py:351 step:42K smpl:3M ep:5K epch:78.98 loss:0.068 grdn:4.729 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 11:24:27 ot_train.py:351 step:42K smpl:3M ep:5K epch:79.36 loss:0.066 grdn:4.958 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:25:53 ot_train.py:351 step:42K smpl:3M ep:5K epch:79.73 loss:0.067 grdn:4.563 lr:1.0e-05 updt_s:0.381 data_s:0.047
+INFO 2025-12-14 11:27:12 ot_train.py:351 step:43K smpl:3M ep:5K epch:80.11 loss:0.066 grdn:4.433 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:28:37 ot_train.py:351 step:43K smpl:3M ep:5K epch:80.48 loss:0.066 grdn:4.570 lr:1.0e-05 updt_s:0.380 data_s:0.048
+INFO 2025-12-14 11:29:56 ot_train.py:351 step:43K smpl:3M ep:5K epch:80.86 loss:0.066 grdn:4.646 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 11:31:15 ot_train.py:351 step:43K smpl:3M ep:5K epch:81.24 loss:0.066 grdn:4.274 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:32:42 ot_train.py:351 step:43K smpl:3M ep:5K epch:81.61 loss:0.066 grdn:4.539 lr:1.0e-05 updt_s:0.380 data_s:0.055
+INFO 2025-12-14 11:34:06 ot_train.py:351 step:44K smpl:3M ep:5K epch:81.99 loss:0.065 grdn:4.399 lr:1.0e-05 updt_s:0.380 data_s:0.036
+INFO 2025-12-14 11:35:31 ot_train.py:351 step:44K smpl:3M ep:5K epch:82.36 loss:0.065 grdn:4.568 lr:1.0e-05 updt_s:0.381 data_s:0.044
+INFO 2025-12-14 11:36:58 ot_train.py:351 step:44K smpl:3M ep:5K epch:82.74 loss:0.065 grdn:4.678 lr:1.0e-05 updt_s:0.380 data_s:0.059
+INFO 2025-12-14 11:38:19 ot_train.py:351 step:44K smpl:3M ep:5K epch:83.12 loss:0.064 grdn:4.301 lr:1.0e-05 updt_s:0.380 data_s:0.021
+INFO 2025-12-14 11:39:45 ot_train.py:351 step:44K smpl:3M ep:5K epch:83.49 loss:0.065 grdn:4.944 lr:1.0e-05 updt_s:0.381 data_s:0.048
+INFO 2025-12-14 11:41:04 ot_train.py:351 step:45K smpl:3M ep:5K epch:83.87 loss:0.065 grdn:4.818 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 11:42:23 ot_train.py:351 step:45K smpl:3M ep:5K epch:84.25 loss:0.065 grdn:4.678 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:43:48 ot_train.py:351 step:45K smpl:3M ep:5K epch:84.62 loss:0.064 grdn:4.448 lr:1.0e-05 updt_s:0.381 data_s:0.047
+INFO 2025-12-14 11:43:48 ot_train.py:361 Checkpoint policy after step 45000
+INFO 2025-12-14 11:45:08 ot_train.py:351 step:45K smpl:3M ep:5K epch:85.00 loss:0.065 grdn:4.707 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 11:46:28 ot_train.py:351 step:45K smpl:3M ep:5K epch:85.37 loss:0.064 grdn:4.628 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 11:47:56 ot_train.py:351 step:46K smpl:3M ep:5K epch:85.75 loss:0.064 grdn:4.445 lr:1.0e-05 updt_s:0.380 data_s:0.062
+INFO 2025-12-14 11:49:21 ot_train.py:351 step:46K smpl:3M ep:5K epch:86.13 loss:0.063 grdn:4.192 lr:1.0e-05 updt_s:0.381 data_s:0.043
+INFO 2025-12-14 11:50:53 ot_train.py:351 step:46K smpl:3M ep:5K epch:86.50 loss:0.064 grdn:4.607 lr:1.0e-05 updt_s:0.379 data_s:0.083
+INFO 2025-12-14 11:52:16 ot_train.py:351 step:46K smpl:3M ep:5K epch:86.88 loss:0.063 grdn:4.493 lr:1.0e-05 updt_s:0.380 data_s:0.032
+INFO 2025-12-14 11:53:38 ot_train.py:351 step:46K smpl:3M ep:5K epch:87.25 loss:0.063 grdn:4.756 lr:1.0e-05 updt_s:0.381 data_s:0.030
+INFO 2025-12-14 11:55:06 ot_train.py:351 step:47K smpl:3M ep:5K epch:87.63 loss:0.064 grdn:4.729 lr:1.0e-05 updt_s:0.380 data_s:0.060
+INFO 2025-12-14 11:56:29 ot_train.py:351 step:47K smpl:3M ep:5K epch:88.01 loss:0.063 grdn:4.116 lr:1.0e-05 updt_s:0.380 data_s:0.034
+INFO 2025-12-14 11:57:52 ot_train.py:351 step:47K smpl:3M ep:5K epch:88.38 loss:0.063 grdn:4.203 lr:1.0e-05 updt_s:0.380 data_s:0.036
+INFO 2025-12-14 11:59:19 ot_train.py:351 step:47K smpl:3M ep:5K epch:88.76 loss:0.063 grdn:4.538 lr:1.0e-05 updt_s:0.380 data_s:0.056
+INFO 2025-12-14 12:00:38 ot_train.py:351 step:47K smpl:3M ep:5K epch:89.13 loss:0.062 grdn:4.672 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 12:02:05 ot_train.py:351 step:48K smpl:3M ep:5K epch:89.51 loss:0.062 grdn:4.100 lr:1.0e-05 updt_s:0.381 data_s:0.052
+INFO 2025-12-14 12:03:24 ot_train.py:351 step:48K smpl:3M ep:5K epch:89.89 loss:0.062 grdn:4.078 lr:1.0e-05 updt_s:0.380 data_s:0.016
+INFO 2025-12-14 12:04:46 ot_train.py:351 step:48K smpl:3M ep:5K epch:90.26 loss:0.062 grdn:4.184 lr:1.0e-05 updt_s:0.381 data_s:0.026
+INFO 2025-12-14 12:06:12 ot_train.py:351 step:48K smpl:3M ep:5K epch:90.64 loss:0.062 grdn:4.517 lr:1.0e-05 updt_s:0.380 data_s:0.050
+INFO 2025-12-14 12:07:31 ot_train.py:351 step:48K smpl:3M ep:5K epch:91.01 loss:0.062 grdn:4.224 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 12:08:50 ot_train.py:351 step:49K smpl:3M ep:5K epch:91.39 loss:0.062 grdn:4.307 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 12:10:16 ot_train.py:351 step:49K smpl:3M ep:6K epch:91.77 loss:0.061 grdn:4.083 lr:1.0e-05 updt_s:0.380 data_s:0.052
+INFO 2025-12-14 12:11:35 ot_train.py:351 step:49K smpl:3M ep:6K epch:92.14 loss:0.062 grdn:4.449 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 12:13:01 ot_train.py:351 step:49K smpl:3M ep:6K epch:92.52 loss:0.061 grdn:4.443 lr:1.0e-05 updt_s:0.381 data_s:0.047
+INFO 2025-12-14 12:14:21 ot_train.py:351 step:49K smpl:3M ep:6K epch:92.90 loss:0.061 grdn:4.220 lr:1.0e-05 updt_s:0.380 data_s:0.018
+INFO 2025-12-14 12:15:40 ot_train.py:351 step:50K smpl:3M ep:6K epch:93.27 loss:0.060 grdn:4.141 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 12:17:06 ot_train.py:351 step:50K smpl:3M ep:6K epch:93.65 loss:0.061 grdn:4.224 lr:1.0e-05 updt_s:0.381 data_s:0.050
+INFO 2025-12-14 12:18:25 ot_train.py:351 step:50K smpl:3M ep:6K epch:94.02 loss:0.061 grdn:4.509 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 12:18:25 ot_train.py:361 Checkpoint policy after step 50000
+INFO 2025-12-14 12:18:26 ot_train.py:430 End of training
+Processing Files (1 / 1)      : 100%|██████████████|  207MB /  207MB, 73.8MB/s  
+New Data Upload               : 100%|██████████████|  206MB /  206MB, 73.5MB/s  
+  ...ctm2_v2/model.safetensors: 100%|██████████████|  207MB /  207MB            
+INFO 2025-12-14 12:18:31 etrained.py:237 Model pushed to https://huggingface.co/sakemyali/actm2_v2
+Processing Files (1 / 1)      : 100%|██████████████| 8.50kB / 8.50kB,  0.00B/s  
+New Data Upload               : |                  |  0.00B /  0.00B,  0.00B/s  
+  ...zer_processor.safetensors: 100%|██████████████| 8.50kB / 8.50kB
+Processing Files (1 / 1)      : 100%|██████████████| 8.50kB / 8.50kB,  0.00B/s  
+New Data Upload               : |                  |  0.00B /  0.00B,  0.00B/s  
+  ...zer_processor.safetensors: 100%|██████████████| 8.50kB / 8.50kB
