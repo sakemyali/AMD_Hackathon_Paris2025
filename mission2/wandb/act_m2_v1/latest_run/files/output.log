@@ -1,0 +1,186 @@
+INFO 2025-12-14 03:08:45 db_utils.py:102 [1m[34mLogs will be synced with wandb.[0m
+INFO 2025-12-14 03:08:45 db_utils.py:103 Track this run --> [1m[33mhttps://wandb.ai/sakemyali_42/lerobot/runs/bfo6gcu1[0m
+INFO 2025-12-14 03:08:45 ot_train.py:183 Creating dataset
+INFO 2025-12-14 03:08:45 ot_train.py:202 Creating policy
+Loading weights from local directory
+INFO 2025-12-14 03:08:46 ot_train.py:247 Creating optimizer and scheduler
+INFO 2025-12-14 03:08:47 ot_train.py:259 [1m[33mOutput dir:[0m outputs/train/actm2
+INFO 2025-12-14 03:08:47 ot_train.py:262 cfg.steps=100000 (100K)
+INFO 2025-12-14 03:08:47 ot_train.py:263 dataset.num_frames=34034 (34K)
+INFO 2025-12-14 03:08:47 ot_train.py:264 dataset.num_episodes=60
+INFO 2025-12-14 03:08:47 ot_train.py:267 Effective batch size: 64 x 1 = 64
+INFO 2025-12-14 03:08:47 ot_train.py:268 num_learnable_params=51597190 (52M)
+INFO 2025-12-14 03:08:47 ot_train.py:269 num_total_params=51597190 (52M)
+INFO 2025-12-14 03:08:47 ot_train.py:324 Start offline training on a fixed dataset
+INFO 2025-12-14 03:10:58 ot_train.py:351 step:50K smpl:3M ep:6K epch:94.40 loss:0.060 grdn:4.085 lr:1.0e-05 updt_s:0.627 data_s:0.028
+INFO 2025-12-14 03:12:17 ot_train.py:351 step:50K smpl:3M ep:6K epch:94.78 loss:0.061 grdn:4.215 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:14:13 ot_train.py:351 step:51K smpl:3M ep:6K epch:95.15 loss:0.059 grdn:3.973 lr:1.0e-05 updt_s:0.538 data_s:0.039
+INFO 2025-12-14 03:15:35 ot_train.py:351 step:51K smpl:3M ep:6K epch:95.53 loss:0.060 grdn:4.150 lr:1.0e-05 updt_s:0.381 data_s:0.032
+INFO 2025-12-14 03:16:57 ot_train.py:351 step:51K smpl:3M ep:6K epch:95.90 loss:0.060 grdn:4.104 lr:1.0e-05 updt_s:0.380 data_s:0.026
+INFO 2025-12-14 03:18:22 ot_train.py:351 step:51K smpl:3M ep:6K epch:96.28 loss:0.059 grdn:4.631 lr:1.0e-05 updt_s:0.381 data_s:0.045
+INFO 2025-12-14 03:19:41 ot_train.py:351 step:51K smpl:3M ep:6K epch:96.66 loss:0.060 grdn:3.836 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:21:05 ot_train.py:351 step:52K smpl:3M ep:6K epch:97.03 loss:0.060 grdn:4.465 lr:1.0e-05 updt_s:0.380 data_s:0.039
+INFO 2025-12-14 03:22:26 ot_train.py:351 step:52K smpl:3M ep:6K epch:97.41 loss:0.059 grdn:4.072 lr:1.0e-05 updt_s:0.381 data_s:0.026
+INFO 2025-12-14 03:23:49 ot_train.py:351 step:52K smpl:3M ep:6K epch:97.78 loss:0.059 grdn:4.027 lr:1.0e-05 updt_s:0.380 data_s:0.032
+INFO 2025-12-14 03:25:15 ot_train.py:351 step:52K smpl:3M ep:6K epch:98.16 loss:0.060 grdn:4.122 lr:1.0e-05 updt_s:0.380 data_s:0.050
+INFO 2025-12-14 03:26:34 ot_train.py:351 step:52K smpl:3M ep:6K epch:98.54 loss:0.059 grdn:4.050 lr:1.0e-05 updt_s:0.382 data_s:0.014
+INFO 2025-12-14 03:27:53 ot_train.py:351 step:53K smpl:3M ep:6K epch:98.91 loss:0.059 grdn:4.328 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 03:29:17 ot_train.py:351 step:53K smpl:3M ep:6K epch:99.29 loss:0.058 grdn:4.203 lr:1.0e-05 updt_s:0.380 data_s:0.038
+INFO 2025-12-14 03:30:36 ot_train.py:351 step:53K smpl:3M ep:6K epch:99.67 loss:0.058 grdn:4.367 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:32:00 ot_train.py:351 step:53K smpl:3M ep:6K epch:100.04 loss:0.058 grdn:4.192 lr:1.0e-05 updt_s:0.380 data_s:0.040
+INFO 2025-12-14 03:33:19 ot_train.py:351 step:53K smpl:3M ep:6K epch:100.42 loss:0.058 grdn:4.323 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 03:34:38 ot_train.py:351 step:54K smpl:3M ep:6K epch:100.79 loss:0.059 grdn:4.492 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:36:02 ot_train.py:351 step:54K smpl:3M ep:6K epch:101.17 loss:0.058 grdn:4.062 lr:1.0e-05 updt_s:0.380 data_s:0.043
+INFO 2025-12-14 03:37:24 ot_train.py:351 step:54K smpl:3M ep:6K epch:101.55 loss:0.058 grdn:4.421 lr:1.0e-05 updt_s:0.381 data_s:0.026
+INFO 2025-12-14 03:38:46 ot_train.py:351 step:54K smpl:3M ep:6K epch:101.92 loss:0.058 grdn:3.854 lr:1.0e-05 updt_s:0.380 data_s:0.030
+INFO 2025-12-14 03:40:12 ot_train.py:351 step:54K smpl:3M ep:6K epch:102.30 loss:0.058 grdn:4.243 lr:1.0e-05 updt_s:0.380 data_s:0.052
+INFO 2025-12-14 03:41:34 ot_train.py:351 step:55K smpl:3M ep:6K epch:102.67 loss:0.057 grdn:4.154 lr:1.0e-05 updt_s:0.380 data_s:0.026
+INFO 2025-12-14 03:43:01 ot_train.py:351 step:55K smpl:4M ep:6K epch:103.05 loss:0.057 grdn:4.341 lr:1.0e-05 updt_s:0.380 data_s:0.054
+INFO 2025-12-14 03:44:19 ot_train.py:351 step:55K smpl:4M ep:6K epch:103.43 loss:0.057 grdn:3.940 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:44:19 ot_train.py:361 Checkpoint policy after step 55000
+INFO 2025-12-14 03:45:40 ot_train.py:351 step:55K smpl:4M ep:6K epch:103.80 loss:0.057 grdn:4.495 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 03:47:04 ot_train.py:351 step:55K smpl:4M ep:6K epch:104.18 loss:0.057 grdn:4.204 lr:1.0e-05 updt_s:0.380 data_s:0.040
+INFO 2025-12-14 03:48:23 ot_train.py:351 step:56K smpl:4M ep:6K epch:104.55 loss:0.057 grdn:3.939 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:49:42 ot_train.py:351 step:56K smpl:4M ep:6K epch:104.93 loss:0.057 grdn:4.233 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 03:51:07 ot_train.py:351 step:56K smpl:4M ep:6K epch:105.31 loss:0.057 grdn:4.147 lr:1.0e-05 updt_s:0.379 data_s:0.048
+INFO 2025-12-14 03:52:30 ot_train.py:351 step:56K smpl:4M ep:6K epch:105.68 loss:0.056 grdn:3.918 lr:1.0e-05 updt_s:0.381 data_s:0.033
+INFO 2025-12-14 03:53:56 ot_train.py:351 step:56K smpl:4M ep:6K epch:106.06 loss:0.056 grdn:3.951 lr:1.0e-05 updt_s:0.380 data_s:0.051
+INFO 2025-12-14 03:55:17 ot_train.py:351 step:57K smpl:4M ep:6K epch:106.43 loss:0.056 grdn:4.001 lr:1.0e-05 updt_s:0.381 data_s:0.022
+INFO 2025-12-14 03:56:40 ot_train.py:351 step:57K smpl:4M ep:6K epch:106.81 loss:0.056 grdn:3.964 lr:1.0e-05 updt_s:0.380 data_s:0.035
+INFO 2025-12-14 03:58:06 ot_train.py:351 step:57K smpl:4M ep:6K epch:107.19 loss:0.056 grdn:4.035 lr:1.0e-05 updt_s:0.380 data_s:0.051
+INFO 2025-12-14 03:59:25 ot_train.py:351 step:57K smpl:4M ep:6K epch:107.56 loss:0.056 grdn:4.361 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:00:44 ot_train.py:351 step:57K smpl:4M ep:6K epch:107.94 loss:0.057 grdn:4.108 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 04:02:08 ot_train.py:351 step:58K smpl:4M ep:6K epch:108.32 loss:0.055 grdn:3.873 lr:1.0e-05 updt_s:0.380 data_s:0.039
+INFO 2025-12-14 04:03:27 ot_train.py:351 step:58K smpl:4M ep:7K epch:108.69 loss:0.056 grdn:3.786 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 04:04:51 ot_train.py:351 step:58K smpl:4M ep:7K epch:109.07 loss:0.056 grdn:4.289 lr:1.0e-05 updt_s:0.380 data_s:0.039
+INFO 2025-12-14 04:06:09 ot_train.py:351 step:58K smpl:4M ep:7K epch:109.44 loss:0.055 grdn:3.899 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 04:07:28 ot_train.py:351 step:58K smpl:4M ep:7K epch:109.82 loss:0.055 grdn:4.104 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:08:53 ot_train.py:351 step:59K smpl:4M ep:7K epch:110.20 loss:0.055 grdn:4.093 lr:1.0e-05 updt_s:0.380 data_s:0.044
+INFO 2025-12-14 04:10:12 ot_train.py:351 step:59K smpl:4M ep:7K epch:110.57 loss:0.055 grdn:3.952 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:11:31 ot_train.py:351 step:59K smpl:4M ep:7K epch:110.95 loss:0.056 grdn:4.303 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:12:55 ot_train.py:351 step:59K smpl:4M ep:7K epch:111.32 loss:0.055 grdn:4.005 lr:1.0e-05 updt_s:0.380 data_s:0.041
+INFO 2025-12-14 04:14:14 ot_train.py:351 step:59K smpl:4M ep:7K epch:111.70 loss:0.054 grdn:3.822 lr:1.0e-05 updt_s:0.382 data_s:0.014
+INFO 2025-12-14 04:15:38 ot_train.py:351 step:60K smpl:4M ep:7K epch:112.08 loss:0.055 grdn:3.896 lr:1.0e-05 updt_s:0.381 data_s:0.040
+INFO 2025-12-14 04:16:57 ot_train.py:351 step:60K smpl:4M ep:7K epch:112.45 loss:0.054 grdn:3.848 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:18:16 ot_train.py:351 step:60K smpl:4M ep:7K epch:112.83 loss:0.054 grdn:4.014 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:18:16 ot_train.py:361 Checkpoint policy after step 60000
+INFO 2025-12-14 04:19:42 ot_train.py:351 step:60K smpl:4M ep:7K epch:113.20 loss:0.055 grdn:4.082 lr:1.0e-05 updt_s:0.381 data_s:0.044
+INFO 2025-12-14 04:21:01 ot_train.py:351 step:60K smpl:4M ep:7K epch:113.58 loss:0.055 grdn:4.754 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:22:20 ot_train.py:351 step:61K smpl:4M ep:7K epch:113.96 loss:0.054 grdn:3.933 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:23:44 ot_train.py:351 step:61K smpl:4M ep:7K epch:114.33 loss:0.054 grdn:4.147 lr:1.0e-05 updt_s:0.380 data_s:0.040
+INFO 2025-12-14 04:25:03 ot_train.py:351 step:61K smpl:4M ep:7K epch:114.71 loss:0.054 grdn:3.935 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:26:28 ot_train.py:351 step:61K smpl:4M ep:7K epch:115.08 loss:0.053 grdn:3.838 lr:1.0e-05 updt_s:0.380 data_s:0.043
+INFO 2025-12-14 04:27:47 ot_train.py:351 step:61K smpl:4M ep:7K epch:115.46 loss:0.054 grdn:4.218 lr:1.0e-05 updt_s:0.381 data_s:0.016
+INFO 2025-12-14 04:29:09 ot_train.py:351 step:62K smpl:4M ep:7K epch:115.84 loss:0.053 grdn:3.898 lr:1.0e-05 updt_s:0.380 data_s:0.032
+INFO 2025-12-14 04:30:34 ot_train.py:351 step:62K smpl:4M ep:7K epch:116.21 loss:0.054 grdn:3.932 lr:1.0e-05 updt_s:0.380 data_s:0.045
+INFO 2025-12-14 04:31:55 ot_train.py:351 step:62K smpl:4M ep:7K epch:116.59 loss:0.053 grdn:3.481 lr:1.0e-05 updt_s:0.380 data_s:0.025
+INFO 2025-12-14 04:33:17 ot_train.py:351 step:62K smpl:4M ep:7K epch:116.97 loss:0.053 grdn:3.699 lr:1.0e-05 updt_s:0.379 data_s:0.029
+INFO 2025-12-14 04:34:42 ot_train.py:351 step:62K smpl:4M ep:7K epch:117.34 loss:0.053 grdn:3.745 lr:1.0e-05 updt_s:0.381 data_s:0.043
+INFO 2025-12-14 04:36:01 ot_train.py:351 step:63K smpl:4M ep:7K epch:117.72 loss:0.053 grdn:3.938 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:37:25 ot_train.py:351 step:63K smpl:4M ep:7K epch:118.09 loss:0.053 grdn:4.048 lr:1.0e-05 updt_s:0.380 data_s:0.042
+INFO 2025-12-14 04:38:44 ot_train.py:351 step:63K smpl:4M ep:7K epch:118.47 loss:0.053 grdn:3.714 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:40:03 ot_train.py:351 step:63K smpl:4M ep:7K epch:118.85 loss:0.053 grdn:3.886 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 04:41:28 ot_train.py:351 step:63K smpl:4M ep:7K epch:119.22 loss:0.053 grdn:4.152 lr:1.0e-05 updt_s:0.380 data_s:0.045
+INFO 2025-12-14 04:42:47 ot_train.py:351 step:64K smpl:4M ep:7K epch:119.60 loss:0.052 grdn:4.008 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 04:44:06 ot_train.py:351 step:64K smpl:4M ep:7K epch:119.97 loss:0.052 grdn:3.895 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:45:30 ot_train.py:351 step:64K smpl:4M ep:7K epch:120.35 loss:0.052 grdn:3.826 lr:1.0e-05 updt_s:0.380 data_s:0.040
+INFO 2025-12-14 04:46:49 ot_train.py:351 step:64K smpl:4M ep:7K epch:120.73 loss:0.052 grdn:3.697 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:48:13 ot_train.py:351 step:64K smpl:4M ep:7K epch:121.10 loss:0.052 grdn:4.334 lr:1.0e-05 updt_s:0.380 data_s:0.040
+INFO 2025-12-14 04:49:32 ot_train.py:351 step:65K smpl:4M ep:7K epch:121.48 loss:0.052 grdn:3.861 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 04:50:51 ot_train.py:351 step:65K smpl:4M ep:7K epch:121.85 loss:0.052 grdn:3.591 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 04:52:17 ot_train.py:351 step:65K smpl:4M ep:7K epch:122.23 loss:0.052 grdn:3.793 lr:1.0e-05 updt_s:0.380 data_s:0.047
+INFO 2025-12-14 04:52:17 ot_train.py:361 Checkpoint policy after step 65000
+INFO 2025-12-14 04:53:36 ot_train.py:351 step:65K smpl:4M ep:7K epch:122.61 loss:0.052 grdn:3.906 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 04:54:57 ot_train.py:351 step:65K smpl:4M ep:7K epch:122.98 loss:0.052 grdn:3.857 lr:1.0e-05 updt_s:0.380 data_s:0.021
+INFO 2025-12-14 04:56:22 ot_train.py:351 step:66K smpl:4M ep:7K epch:123.36 loss:0.051 grdn:3.948 lr:1.0e-05 updt_s:0.379 data_s:0.047
+INFO 2025-12-14 04:57:40 ot_train.py:351 step:66K smpl:4M ep:7K epch:123.74 loss:0.051 grdn:3.798 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 04:59:06 ot_train.py:351 step:66K smpl:4M ep:7K epch:124.11 loss:0.051 grdn:3.895 lr:1.0e-05 updt_s:0.380 data_s:0.046
+INFO 2025-12-14 05:00:24 ot_train.py:351 step:66K smpl:4M ep:7K epch:124.49 loss:0.051 grdn:3.777 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:01:43 ot_train.py:351 step:66K smpl:4M ep:7K epch:124.86 loss:0.052 grdn:4.041 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:03:08 ot_train.py:351 step:67K smpl:4M ep:8K epch:125.24 loss:0.051 grdn:3.581 lr:1.0e-05 updt_s:0.379 data_s:0.046
+INFO 2025-12-14 05:04:27 ot_train.py:351 step:67K smpl:4M ep:8K epch:125.62 loss:0.051 grdn:3.771 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:05:46 ot_train.py:351 step:67K smpl:4M ep:8K epch:125.99 loss:0.051 grdn:3.495 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:07:12 ot_train.py:351 step:67K smpl:4M ep:8K epch:126.37 loss:0.050 grdn:3.824 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 05:08:31 ot_train.py:351 step:67K smpl:4M ep:8K epch:126.74 loss:0.050 grdn:3.886 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:09:56 ot_train.py:351 step:68K smpl:4M ep:8K epch:127.12 loss:0.051 grdn:4.030 lr:1.0e-05 updt_s:0.380 data_s:0.048
+INFO 2025-12-14 05:11:15 ot_train.py:351 step:68K smpl:4M ep:8K epch:127.50 loss:0.050 grdn:3.657 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 05:12:34 ot_train.py:351 step:68K smpl:4M ep:8K epch:127.87 loss:0.050 grdn:4.175 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:14:00 ot_train.py:351 step:68K smpl:4M ep:8K epch:128.25 loss:0.050 grdn:3.741 lr:1.0e-05 updt_s:0.379 data_s:0.052
+INFO 2025-12-14 05:15:19 ot_train.py:351 step:68K smpl:4M ep:8K epch:128.62 loss:0.050 grdn:4.023 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:16:38 ot_train.py:351 step:69K smpl:4M ep:8K epch:129.00 loss:0.050 grdn:3.913 lr:1.0e-05 updt_s:0.380 data_s:0.016
+INFO 2025-12-14 05:18:04 ot_train.py:351 step:69K smpl:4M ep:8K epch:129.38 loss:0.050 grdn:3.664 lr:1.0e-05 updt_s:0.379 data_s:0.050
+INFO 2025-12-14 05:19:23 ot_train.py:351 step:69K smpl:4M ep:8K epch:129.75 loss:0.049 grdn:3.533 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:20:49 ot_train.py:351 step:69K smpl:4M ep:8K epch:130.13 loss:0.050 grdn:3.840 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 05:22:08 ot_train.py:351 step:69K smpl:4M ep:8K epch:130.50 loss:0.050 grdn:3.896 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:23:27 ot_train.py:351 step:70K smpl:4M ep:8K epch:130.88 loss:0.050 grdn:3.973 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:24:53 ot_train.py:351 step:70K smpl:4M ep:8K epch:131.26 loss:0.049 grdn:3.656 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 05:26:12 ot_train.py:351 step:70K smpl:4M ep:8K epch:131.63 loss:0.050 grdn:4.463 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:26:12 ot_train.py:361 Checkpoint policy after step 70000
+INFO 2025-12-14 05:27:32 ot_train.py:351 step:70K smpl:4M ep:8K epch:132.01 loss:0.049 grdn:3.869 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:28:59 ot_train.py:351 step:70K smpl:5M ep:8K epch:132.39 loss:0.049 grdn:3.870 lr:1.0e-05 updt_s:0.380 data_s:0.054
+INFO 2025-12-14 05:30:20 ot_train.py:351 step:71K smpl:5M ep:8K epch:132.76 loss:0.050 grdn:4.067 lr:1.0e-05 updt_s:0.379 data_s:0.028
+INFO 2025-12-14 05:31:49 ot_train.py:351 step:71K smpl:5M ep:8K epch:133.14 loss:0.049 grdn:3.754 lr:1.0e-05 updt_s:0.380 data_s:0.061
+INFO 2025-12-14 05:33:07 ot_train.py:351 step:71K smpl:5M ep:8K epch:133.51 loss:0.049 grdn:3.566 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 05:34:26 ot_train.py:351 step:71K smpl:5M ep:8K epch:133.89 loss:0.049 grdn:3.662 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:35:51 ot_train.py:351 step:71K smpl:5M ep:8K epch:134.27 loss:0.049 grdn:3.632 lr:1.0e-05 updt_s:0.380 data_s:0.044
+INFO 2025-12-14 05:37:10 ot_train.py:351 step:72K smpl:5M ep:8K epch:134.64 loss:0.049 grdn:3.686 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:38:28 ot_train.py:351 step:72K smpl:5M ep:8K epch:135.02 loss:0.049 grdn:3.560 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:39:54 ot_train.py:351 step:72K smpl:5M ep:8K epch:135.39 loss:0.048 grdn:3.944 lr:1.0e-05 updt_s:0.381 data_s:0.044
+INFO 2025-12-14 05:41:13 ot_train.py:351 step:72K smpl:5M ep:8K epch:135.77 loss:0.049 grdn:3.883 lr:1.0e-05 updt_s:0.382 data_s:0.014
+INFO 2025-12-14 05:42:39 ot_train.py:351 step:72K smpl:5M ep:8K epch:136.15 loss:0.048 grdn:3.460 lr:1.0e-05 updt_s:0.380 data_s:0.050
+INFO 2025-12-14 05:43:57 ot_train.py:351 step:73K smpl:5M ep:8K epch:136.52 loss:0.048 grdn:3.864 lr:1.0e-05 updt_s:0.379 data_s:0.014
+INFO 2025-12-14 05:45:17 ot_train.py:351 step:73K smpl:5M ep:8K epch:136.90 loss:0.049 grdn:3.793 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:46:43 ot_train.py:351 step:73K smpl:5M ep:8K epch:137.27 loss:0.048 grdn:3.834 lr:1.0e-05 updt_s:0.379 data_s:0.051
+INFO 2025-12-14 05:48:02 ot_train.py:351 step:73K smpl:5M ep:8K epch:137.65 loss:0.048 grdn:3.483 lr:1.0e-05 updt_s:0.380 data_s:0.015
+INFO 2025-12-14 05:49:21 ot_train.py:351 step:73K smpl:5M ep:8K epch:138.03 loss:0.049 grdn:3.820 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:50:47 ot_train.py:351 step:74K smpl:5M ep:8K epch:138.40 loss:0.047 grdn:3.404 lr:1.0e-05 updt_s:0.379 data_s:0.050
+INFO 2025-12-14 05:52:06 ot_train.py:351 step:74K smpl:5M ep:8K epch:138.78 loss:0.048 grdn:3.586 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:53:33 ot_train.py:351 step:74K smpl:5M ep:8K epch:139.15 loss:0.048 grdn:3.393 lr:1.0e-05 updt_s:0.380 data_s:0.054
+INFO 2025-12-14 05:54:52 ot_train.py:351 step:74K smpl:5M ep:8K epch:139.53 loss:0.047 grdn:3.898 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 05:56:11 ot_train.py:351 step:74K smpl:5M ep:8K epch:139.91 loss:0.048 grdn:3.789 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 05:57:38 ot_train.py:351 step:75K smpl:5M ep:8K epch:140.28 loss:0.048 grdn:3.779 lr:1.0e-05 updt_s:0.380 data_s:0.054
+INFO 2025-12-14 05:58:57 ot_train.py:351 step:75K smpl:5M ep:8K epch:140.66 loss:0.048 grdn:3.895 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 06:00:16 ot_train.py:351 step:75K smpl:5M ep:8K epch:141.04 loss:0.047 grdn:4.034 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 06:00:16 ot_train.py:361 Checkpoint policy after step 75000
+INFO 2025-12-14 06:01:43 ot_train.py:351 step:75K smpl:5M ep:8K epch:141.41 loss:0.048 grdn:3.840 lr:1.0e-05 updt_s:0.379 data_s:0.049
+INFO 2025-12-14 06:03:03 ot_train.py:351 step:75K smpl:5M ep:9K epch:141.79 loss:0.047 grdn:3.550 lr:1.0e-05 updt_s:0.381 data_s:0.019
+INFO 2025-12-14 06:04:28 ot_train.py:351 step:76K smpl:5M ep:9K epch:142.16 loss:0.047 grdn:3.689 lr:1.0e-05 updt_s:0.380 data_s:0.049
+INFO 2025-12-14 06:05:47 ot_train.py:351 step:76K smpl:5M ep:9K epch:142.54 loss:0.047 grdn:3.612 lr:1.0e-05 updt_s:0.381 data_s:0.014
+INFO 2025-12-14 06:07:06 ot_train.py:351 step:76K smpl:5M ep:9K epch:142.92 loss:0.048 grdn:4.073 lr:1.0e-05 updt_s:0.380 data_s:0.014
+INFO 2025-12-14 06:08:32 ot_train.py:351 step:76K smpl:5M ep:9K epch:143.29 loss:0.047 grdn:3.550 lr:1.0e-05 updt_s:0.379 data_s:0.051
+Traceback (most recent call last):
+  File "/opt/venv/bin/lerobot-train", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/lerobot/src/lerobot/scripts/lerobot_train.py", line 444, in main
+    train()
+  File "/workspace/lerobot/src/lerobot/configs/parser.py", line 233, in wrapper_inner
+    response = fn(cfg, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/scripts/lerobot_train.py", line 332, in train
+    train_tracker, output_dict = update_policy(
+                                 ^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/scripts/lerobot_train.py", line 107, in update_policy
+    optimizer.step()
+  File "/opt/venv/lib/python3.12/site-packages/accelerate/optimizer.py", line 179, in step
+    self.optimizer.step(closure)
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 485, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 79, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/adam.py", line 246, in step
+    adam(
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 147, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/adam.py", line 933, in adam
+    func(
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/adam.py", line 739, in _multi_tensor_adam
+    1 - beta1 ** _get_value(step) for step in device_state_steps
+                 ^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 94, in _get_value
+    return x.item() if isinstance(x, torch.Tensor) else x
+           ^^^^^^^^
+KeyboardInterrupt

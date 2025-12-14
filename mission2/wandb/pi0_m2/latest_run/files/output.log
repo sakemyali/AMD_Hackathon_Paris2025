@@ -1,0 +1,54 @@
+INFO 2025-12-14 06:16:12 db_utils.py:102 [1m[34mLogs will be synced with wandb.[0m
+INFO 2025-12-14 06:16:12 db_utils.py:103 Track this run --> [1m[33mhttps://wandb.ai/sakemyali_42/lerobot/runs/7r1nird2[0m
+INFO 2025-12-14 06:16:12 ot_train.py:183 Creating dataset
+INFO 2025-12-14 06:16:13 ot_train.py:202 Creating policy
+The PI0 model is a direct port of the OpenPI implementation.
+This implementation follows the original OpenPI structure for compatibility.
+Original implementation: https://github.com/Physical-Intelligence/openpi
+Loading model from: outputs/train/p0m2/checkpoints/last/pretrained_model
+✓ Loaded state dict from model.safetensors
+WARNING 2025-12-14 06:16:54 ing_pi0.py:1046 Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.bias
+WARNING 2025-12-14 06:16:54 ing_pi0.py:1046 Vision embedding key might need handling: model.paligemma_with_expert.paligemma.model.vision_tower.vision_model.embeddings.patch_embedding.weight
+Warning: Could not remap state dict keys: Error(s) in loading state_dict for PI0Policy:
+	Missing key(s) in state_dict: "model.paligemma_with_expert.paligemma.model.language_model.embed_tokens.weight".
+INFO 2025-12-14 06:17:05 ot_train.py:247 Creating optimizer and scheduler
+INFO 2025-12-14 06:17:05 hedulers.py:105 Auto-scaling LR scheduler: num_training_steps (20000) < num_decay_steps (30000). Scaling warmup: 1000 → 666, decay: 30000 → 20000 (scale factor: 0.667)
+Traceback (most recent call last):
+  File "/opt/venv/bin/lerobot-train", line 7, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/lerobot/src/lerobot/scripts/lerobot_train.py", line 444, in main
+    train()
+  File "/workspace/lerobot/src/lerobot/configs/parser.py", line 233, in wrapper_inner
+    response = fn(cfg, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/scripts/lerobot_train.py", line 253, in train
+    step, optimizer, lr_scheduler = load_training_state(cfg.checkpoint_path, optimizer, lr_scheduler)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/utils/train_utils.py", line 161, in load_training_state
+    optimizer = load_optimizer_state(optimizer, training_state_dir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/optim/optimizers.py", line 208, in load_optimizer_state
+    return _load_single_optimizer_state(optimizer, save_dir)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/lerobot/src/lerobot/optim/optimizers.py", line 229, in _load_single_optimizer_state
+    optimizer.load_state_dict(loaded_state_dict)
+  File "/opt/venv/lib/python3.12/site-packages/torch/_compile.py", line 51, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 838, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 910, in load_state_dict
+    state[param] = _cast(
+                   ^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 893, in _cast
+    k: _cast(
+       ^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 888, in _cast
+    return Optimizer._process_value_according_to_param_policy(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 755, in _process_value_according_to_param_policy
+    return value.to(dtype=param.dtype, device=param.device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
