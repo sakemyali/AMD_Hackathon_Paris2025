@@ -162,11 +162,16 @@ When a **baguette** is detected, the robot:
 
 #### 🚫 Task 3: Non-Target / Forbidden Object Handling
 
-When an **unrelated or forbidden object** (e.g., medicine) is detected, or when no valid target object is present, the robot:
+When a **non-target or unknown object** is detected, the robot adapts its behavior as follows:
 
-- Ignores the object
-- Does **not** attempt to grasp or interact with it
-- Remains idle until a valid target object appears
+- If the object is **unknown but not explicitly forbidden**, the robot:
+  - Picks up the object
+  - Places it back down safely
+
+- If the object is a **forbidden item** (e.g., medicine), the robot:
+  - Picks up the object
+  - Performs a clear **“no” gesture** to indicate refusal
+  - Places the object back down safely
 
 
 With prior experience building classical manipulation pipelines, this project represents a transition toward **learning-based robotic control**, relying on data-driven policies trained from real demonstrations.
