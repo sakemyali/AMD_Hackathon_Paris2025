@@ -326,7 +326,7 @@ Performance remains stable under:
 * Smooth and natural human demonstrations
 * Compatible with LeRobot standard format
 
-![Coffee & Croissant Robot](extras/demo.gif)
+![Coffee & Croissant Robot](extras/Adobe Express - AA85F1EA-90CC-4826-9FE3-D07864121704.gif)
 
 **Mission 2 Dataset:**
 
