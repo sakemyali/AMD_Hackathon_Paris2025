@@ -287,7 +287,7 @@ The dataset follows the **LeRobot standard format** and is reusable for future t
 ---
 
 ### 5. Results
----------------------------- add videos -------------
+
 #### 1. Successful Full-Task Execution
 
 The robot reliably completes:
@@ -295,7 +295,9 @@ The robot reliably completes:
 * Croissant pick and dip
 * Baguette pick and handover
 
-across repeated trials.
+across repeated trials as we can see in the following videos :
+https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
+https://youtu.be/MDfwkfW8x8w?si=-MuDqL52tvdrs0zx
 
 ---
 
@@ -305,6 +307,8 @@ across repeated trials.
 * Avoids forbidden items
 * Remains idle when no target object is detected
 
+https://youtu.be/CIm8Ewrc9b8?si=L_SJo0eBMjYwMhpv
+https://youtu.be/CiShu3YnrM4?si=KXbAPqK_0l7VKrA6
 ---
 
 #### 3. Robustness to Lighting Conditions
@@ -315,6 +319,8 @@ Performance remains stable under:
 * Dim indoor lighting
 * Partial shadows
 
+https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
+
 ---
 
 #### 4. Failure Handling & Recovery
@@ -322,6 +328,8 @@ Performance remains stable under:
 * If a grasp fails, the robot reattempts the action
 * If the object slips, the policy recovers without reset
 * Small disturbances do not cause task failure
+
+https://youtu.be/HEasbXmw7Y0?si=KrEOIr6H_LYbrH5S
 
 ---
 
@@ -344,6 +352,7 @@ Performance remains stable under:
 * Adaptation to home assistance or café service environments
 
 
+---
 ---
 
 ## Dataset
