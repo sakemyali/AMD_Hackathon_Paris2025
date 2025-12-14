@@ -311,8 +311,13 @@ https://youtu.be/IBOvxAOvIsY?si=4Eod8bOSUkmDugpW
 * Avoids forbidden items
 * Remains idle when no target object is detected
 
+
 https://youtu.be/CIm8Ewrc9b8?si=L_SJo0eBMjYwMhpv
+
+
 https://youtu.be/CiShu3YnrM4?si=KXbAPqK_0l7VKrA6
+
+
 ---
 
 #### 3. Robustness to Lighting Conditions
